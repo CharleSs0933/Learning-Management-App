@@ -38,7 +38,7 @@ app.get("/", (req, res) => {
 });
 
 app.use("/courses", courseRoutes);
-app.use("/user/clerk", userClerkRoutes);
+app.use("/users/clerk", userClerkRoutes);
 
 /* SERVER */
 const port = process.env.PORT || 3000;
