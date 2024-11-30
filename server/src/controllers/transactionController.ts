@@ -121,9 +121,7 @@ export const listTransactions = async (
 
     res.json({
       message: "Transaction retrieved successfully",
-      data: {
-        transactions,
-      },
+      data: transactions,
     });
   } catch (error) {
     res.status(500).json({ message: "Error retrieving transactions", error });
