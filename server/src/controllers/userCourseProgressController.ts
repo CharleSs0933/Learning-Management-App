@@ -30,7 +30,7 @@ export const getUserEnrolledCourses = async (
   } catch (error) {
     res
       .status(500)
-      .json({ message: "Error retrieving enrolle courses", error });
+      .json({ message: "Error retrieving enrolled courses", error });
   }
 };
 

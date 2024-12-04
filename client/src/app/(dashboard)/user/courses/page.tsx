@@ -1,7 +1,7 @@
 "use client";
 
 import Toolbar from "@/components/Toolbar";
-import CourseCard from "@/components/CourseCardSearch";
+import CourseCard from "@/components/CourseCard";
 import { useGetUserEnrolledCoursesQuery } from "@/state/api";
 import { useRouter } from "next/navigation";
 import Header from "@/components/Header";
