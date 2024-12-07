@@ -108,7 +108,10 @@ const ChapterModal = () => {
         </div>
 
         <Form {...methods}>
-          <form onSubmit={methods.handleSubmit(onSubmit)}>
+          <form
+            onSubmit={methods.handleSubmit(onSubmit)}
+            className="chapter-modal__form"
+          >
             <CustomFormField
               name="title"
               label="Chapter Title"
